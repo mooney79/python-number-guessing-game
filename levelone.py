@@ -16,4 +16,5 @@ def play():
             print("Too low")
             guesses_remaining = guesses_remaining -1
 
-play()
+if __name__ == '__main__':
+    play()

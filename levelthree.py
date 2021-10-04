@@ -24,5 +24,5 @@ def comp_play():
         else:
             print("The computer guessed it on its " + str(guesses+1) + " try!")
             print(computer_guess)
-
-comp_play()
+if __name__ == '__main__':
+    comp_play()
